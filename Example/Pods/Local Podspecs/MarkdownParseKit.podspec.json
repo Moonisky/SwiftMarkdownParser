@@ -1,0 +1,31 @@
+{
+  "name": "MarkdownParseKit",
+  "version": "0.1.0",
+  "summary": "A Swift Wrapper of the Sundown Markdown Library.",
+  "description": "",
+  "homepage": "https://github.com/SemperIdem/SwiftMarkdownParser",
+  "license": "MIT",
+  "authors": {
+    "星夜暮晨": "semper_idem@126.com"
+  },
+  "source": {
+    "git": "https://github.com/SemperIdem/SwiftMarkdownParser.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "public_header_files": [
+    "Pod/Classes/Bridge-Header.h",
+    "Pod/Classes/Sundown/html/html.h",
+    "Pod/Classes/Sundown/src/autolink.h",
+    "Pod/Classes/Sundown/src/buffer.h",
+    "Pod/Classes/Sundown/src/markdown.h"
+  ],
+  "frameworks": [
+    "UIKit",
+    "WebKit"
+  ]
+}
