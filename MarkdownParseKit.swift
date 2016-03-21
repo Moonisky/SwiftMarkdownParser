@@ -8,22 +8,22 @@
 
 import Foundation
 
-struct SundownWrapper {
+public class MarkdownParse {
     
     /// converts the markdown in the file to an html string
-    static func convertMarkdownFileAtPath(path: String) -> String {
+    public static func convertMarkdownFileAtPath(path: String) -> String {
         guard let string = try? String(contentsOfFile: path, encoding: NSUTF8StringEncoding) else { fatalError("Cannot read file path!") }
         return convertMarkdownString(string)
     }
     
     /// converts the markdown at the url to an html string
-    static func convertMarkdownFileAtURL(url: NSURL) -> String {
+    public static func convertMarkdownFileAtURL(url: NSURL) -> String {
         guard let string = try? String(contentsOfURL: url, encoding: NSUTF8StringEncoding) else { fatalError("Cannot read URL!") }
         return convertMarkdownString(string)
     }
     
     /// converts the given markdown string to an html string
-    static func convertMarkdownString(markdown: String) -> String {
+    public static func convertMarkdownString(markdown: String) -> String {
         if markdown.isEmpty {
             fatalError("Empty string passed into conversion method.")
         }

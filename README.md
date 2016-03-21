@@ -21,7 +21,7 @@ print(markdown)
 
 print("===================")
 
-let parser = SundownWrapper.convertMarkdownString(markdown)
+let parser = MarkdownParse.convertMarkdownString(markdown)
 print(parser)
 ```
 
@@ -47,7 +47,7 @@ The results in Console are:
 * iOS 8.0+
 
   > If you want to support iOS 7, you should use my source code for using this functionality. Because it does not allow using 3rd party dynamic frameworks, and it's impossible to build static libraries that contain Swift code.
-
+  ​
 * Swift 2.0
 
 * Xcode 7.0+

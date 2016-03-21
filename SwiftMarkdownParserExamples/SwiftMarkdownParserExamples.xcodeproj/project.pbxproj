@@ -17,8 +17,8 @@
 		D898DFDA1C9FEA7600A88502 /* markdown.c in Sources */ = {isa = PBXBuildFile; fileRef = D898DFD01C9FEA7600A88502 /* markdown.c */; };
 		D898DFDB1C9FEA7600A88502 /* stack.c in Sources */ = {isa = PBXBuildFile; fileRef = D898DFD21C9FEA7600A88502 /* stack.c */; };
 		D898DFF31C9FED7200A88502 /* MarkdownParseKit.h in Headers */ = {isa = PBXBuildFile; fileRef = D898DFF21C9FED7200A88502 /* MarkdownParseKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D898DFF81C9FEDA200A88502 /* SundownWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D898DFDC1C9FEA8700A88502 /* SundownWrapper.swift */; };
-		D898DFF91C9FEDA200A88502 /* houdini.h in Headers */ = {isa = PBXBuildFile; fileRef = D898DFC41C9FEA7600A88502 /* houdini.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		D898DFF81C9FEDA200A88502 /* MarkdownParseKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = D898DFDC1C9FEA8700A88502 /* MarkdownParseKit.swift */; };
+		D898DFF91C9FEDA200A88502 /* houdini.h in Headers */ = {isa = PBXBuildFile; fileRef = D898DFC41C9FEA7600A88502 /* houdini.h */; };
 		D898DFFA1C9FEDA200A88502 /* houdini_href_e.c in Sources */ = {isa = PBXBuildFile; fileRef = D898DFC51C9FEA7600A88502 /* houdini_href_e.c */; };
 		D898DFFB1C9FEDA200A88502 /* houdini_html_e.c in Sources */ = {isa = PBXBuildFile; fileRef = D898DFC61C9FEA7600A88502 /* houdini_html_e.c */; };
 		D898DFFC1C9FEDA200A88502 /* html.c in Sources */ = {isa = PBXBuildFile; fileRef = D898DFC71C9FEA7600A88502 /* html.c */; };
@@ -28,13 +28,13 @@
 		D898E0001C9FEDA200A88502 /* autolink.h in Headers */ = {isa = PBXBuildFile; fileRef = D898DFCC1C9FEA7600A88502 /* autolink.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D898E0011C9FEDA200A88502 /* buffer.c in Sources */ = {isa = PBXBuildFile; fileRef = D898DFCD1C9FEA7600A88502 /* buffer.c */; };
 		D898E0021C9FEDA200A88502 /* buffer.h in Headers */ = {isa = PBXBuildFile; fileRef = D898DFCE1C9FEA7600A88502 /* buffer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D898E0031C9FEDA200A88502 /* html_blocks.h in Headers */ = {isa = PBXBuildFile; fileRef = D898DFCF1C9FEA7600A88502 /* html_blocks.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		D898E0031C9FEDA200A88502 /* html_blocks.h in Headers */ = {isa = PBXBuildFile; fileRef = D898DFCF1C9FEA7600A88502 /* html_blocks.h */; };
 		D898E0041C9FEDA200A88502 /* markdown.c in Sources */ = {isa = PBXBuildFile; fileRef = D898DFD01C9FEA7600A88502 /* markdown.c */; };
 		D898E0051C9FEDA200A88502 /* markdown.h in Headers */ = {isa = PBXBuildFile; fileRef = D898DFD11C9FEA7600A88502 /* markdown.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D898E0061C9FEDA200A88502 /* stack.c in Sources */ = {isa = PBXBuildFile; fileRef = D898DFD21C9FEA7600A88502 /* stack.c */; };
-		D898E0071C9FEDA200A88502 /* stack.h in Headers */ = {isa = PBXBuildFile; fileRef = D898DFD31C9FEA7600A88502 /* stack.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		D898E0071C9FEDA200A88502 /* stack.h in Headers */ = {isa = PBXBuildFile; fileRef = D898DFD31C9FEA7600A88502 /* stack.h */; };
 		D898E00A1C9FEEAA00A88502 /* Bridge-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = D898E0091C9FEE9400A88502 /* Bridge-Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D898E00B1C9FEEC200A88502 /* SundownWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D898DFDC1C9FEA8700A88502 /* SundownWrapper.swift */; };
+		D898E00B1C9FEEC200A88502 /* MarkdownParseKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = D898DFDC1C9FEA8700A88502 /* MarkdownParseKit.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -68,7 +68,7 @@
 		D898DFD11C9FEA7600A88502 /* markdown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = markdown.h; sourceTree = "<group>"; };
 		D898DFD21C9FEA7600A88502 /* stack.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = stack.c; sourceTree = "<group>"; };
 		D898DFD31C9FEA7600A88502 /* stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stack.h; sourceTree = "<group>"; };
-		D898DFDC1C9FEA8700A88502 /* SundownWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SundownWrapper.swift; path = ../SundownWrapper.swift; sourceTree = "<group>"; };
+		D898DFDC1C9FEA8700A88502 /* MarkdownParseKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MarkdownParseKit.swift; path = ../MarkdownParseKit.swift; sourceTree = "<group>"; };
 		D898DFF01C9FED7200A88502 /* MarkdownParseKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MarkdownParseKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D898DFF21C9FED7200A88502 /* MarkdownParseKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MarkdownParseKit.h; sourceTree = "<group>"; };
 		D898DFF41C9FED7200A88502 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -124,7 +124,7 @@
 		D898DFC21C9FEA7600A88502 /* Sundown */ = {
 			isa = PBXGroup;
 			children = (
-				D898DFDC1C9FEA8700A88502 /* SundownWrapper.swift */,
+				D898DFDC1C9FEA8700A88502 /* MarkdownParseKit.swift */,
 				D898DFC31C9FEA7600A88502 /* html */,
 				D898DFCA1C9FEA7600A88502 /* src */,
 			);
@@ -178,12 +178,12 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D898DFF31C9FED7200A88502 /* MarkdownParseKit.h in Headers */,
 				D898E00A1C9FEEAA00A88502 /* Bridge-Header.h in Headers */,
 				D898DFFD1C9FEDA200A88502 /* html.h in Headers */,
-				D898E0051C9FEDA200A88502 /* markdown.h in Headers */,
 				D898E0021C9FEDA200A88502 /* buffer.h in Headers */,
+				D898E0051C9FEDA200A88502 /* markdown.h in Headers */,
 				D898E0001C9FEDA200A88502 /* autolink.h in Headers */,
-				D898DFF31C9FED7200A88502 /* MarkdownParseKit.h in Headers */,
 				D898DFF91C9FEDA200A88502 /* houdini.h in Headers */,
 				D898E0031C9FEDA200A88502 /* html_blocks.h in Headers */,
 				D898E0071C9FEDA200A88502 /* stack.h in Headers */,
@@ -280,7 +280,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D898E00B1C9FEEC200A88502 /* SundownWrapper.swift in Sources */,
+				D898E00B1C9FEEC200A88502 /* MarkdownParseKit.swift in Sources */,
 				D898DFD91C9FEA7600A88502 /* buffer.c in Sources */,
 				D898DFD61C9FEA7600A88502 /* html.c in Sources */,
 				D898DFBC1C9FE99600A88502 /* main.swift in Sources */,
@@ -299,7 +299,7 @@
 			files = (
 				D898E0011C9FEDA200A88502 /* buffer.c in Sources */,
 				D898DFFC1C9FEDA200A88502 /* html.c in Sources */,
-				D898DFF81C9FEDA200A88502 /* SundownWrapper.swift in Sources */,
+				D898DFF81C9FEDA200A88502 /* MarkdownParseKit.swift in Sources */,
 				D898E0061C9FEDA200A88502 /* stack.c in Sources */,
 				D898DFFF1C9FEDA200A88502 /* autolink.c in Sources */,
 				D898DFFA1C9FEDA200A88502 /* houdini_href_e.c in Sources */,

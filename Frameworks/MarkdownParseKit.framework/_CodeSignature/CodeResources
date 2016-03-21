@@ -38,35 +38,23 @@
 		</data>
 		<key>Modules/MarkdownParseKit.swiftmodule/arm.swiftdoc</key>
 		<data>
-		pqLHe7Xs1q9FeFThmCWFCX+tXkY=
+		w/joV81hWZJ84rMN/gLhcbgW9Cg=
 		</data>
 		<key>Modules/MarkdownParseKit.swiftmodule/arm.swiftmodule</key>
 		<data>
-		5iCtt3K4eIdz+8CPKzeYYQnokhw=
+		gSkqeE4htEQLkomyACegWORpBvk=
 		</data>
 		<key>Modules/MarkdownParseKit.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		wkYaPz9FHB6D6dcV69SNdQKWgTo=
+		hTQk8VhdTj2LOMy44OoJdgbM0tA=
 		</data>
 		<key>Modules/MarkdownParseKit.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		bYEuGI8vTwfUW2V3aoyBtQ5gNvY=
+		bRm0noGYqvloqXi+ksfMbKbRjhg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		XL4nHSZUjCcs4O0iZgMf4d/0Ktk=
-		</data>
-		<key>PrivateHeaders/houdini.h</key>
-		<data>
-		N/QXKC1iZyzeA1eNDrF6yq5+/3M=
-		</data>
-		<key>PrivateHeaders/html_blocks.h</key>
-		<data>
-		jgkFCVEkAR1z2UCJSyJ6WldQwf8=
-		</data>
-		<key>PrivateHeaders/stack.h</key>
-		<data>
-		dPtEazkfXq7hebbgSrOhosvVpbI=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -101,35 +89,23 @@
 		</data>
 		<key>Modules/MarkdownParseKit.swiftmodule/arm.swiftdoc</key>
 		<data>
-		pqLHe7Xs1q9FeFThmCWFCX+tXkY=
+		w/joV81hWZJ84rMN/gLhcbgW9Cg=
 		</data>
 		<key>Modules/MarkdownParseKit.swiftmodule/arm.swiftmodule</key>
 		<data>
-		5iCtt3K4eIdz+8CPKzeYYQnokhw=
+		gSkqeE4htEQLkomyACegWORpBvk=
 		</data>
 		<key>Modules/MarkdownParseKit.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		wkYaPz9FHB6D6dcV69SNdQKWgTo=
+		hTQk8VhdTj2LOMy44OoJdgbM0tA=
 		</data>
 		<key>Modules/MarkdownParseKit.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		bYEuGI8vTwfUW2V3aoyBtQ5gNvY=
+		bRm0noGYqvloqXi+ksfMbKbRjhg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		XL4nHSZUjCcs4O0iZgMf4d/0Ktk=
-		</data>
-		<key>PrivateHeaders/houdini.h</key>
-		<data>
-		N/QXKC1iZyzeA1eNDrF6yq5+/3M=
-		</data>
-		<key>PrivateHeaders/html_blocks.h</key>
-		<data>
-		jgkFCVEkAR1z2UCJSyJ6WldQwf8=
-		</data>
-		<key>PrivateHeaders/stack.h</key>
-		<data>
-		dPtEazkfXq7hebbgSrOhosvVpbI=
 		</data>
 	</dict>
 	<key>rules</key>
