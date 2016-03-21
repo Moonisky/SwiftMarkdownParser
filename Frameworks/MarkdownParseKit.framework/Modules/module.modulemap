@@ -1,0 +1,10 @@
+framework module MarkdownParseKit {
+  umbrella header "MarkdownParseKit.h"
+
+  export *
+  module * { export * }
+}
+
+module MarkdownParseKit.Swift {
+    header "MarkdownParseKit-Swift.h"
+}
