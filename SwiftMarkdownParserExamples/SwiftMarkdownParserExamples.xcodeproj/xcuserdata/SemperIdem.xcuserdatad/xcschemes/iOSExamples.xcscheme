@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D898DFB81C9FE99600A88502"
-               BuildableName = "Examples"
-               BlueprintName = "Examples"
+               BlueprintIdentifier = "D83A82561CA017D400B8927E"
+               BuildableName = "iOSExamples.app"
+               BlueprintName = "iOSExamples"
                ReferencedContainer = "container:SwiftMarkdownParserExamples.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -32,9 +32,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D898DFB81C9FE99600A88502"
-            BuildableName = "Examples"
-            BlueprintName = "Examples"
+            BlueprintIdentifier = "D83A82561CA017D400B8927E"
+            BuildableName = "iOSExamples.app"
+            BlueprintName = "iOSExamples"
             ReferencedContainer = "container:SwiftMarkdownParserExamples.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -55,9 +55,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D898DFB81C9FE99600A88502"
-            BuildableName = "Examples"
-            BlueprintName = "Examples"
+            BlueprintIdentifier = "D83A82561CA017D400B8927E"
+            BuildableName = "iOSExamples.app"
+            BlueprintName = "iOSExamples"
             ReferencedContainer = "container:SwiftMarkdownParserExamples.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -74,9 +74,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D898DFB81C9FE99600A88502"
-            BuildableName = "Examples"
-            BlueprintName = "Examples"
+            BlueprintIdentifier = "D83A82561CA017D400B8927E"
+            BuildableName = "iOSExamples.app"
+            BlueprintName = "iOSExamples"
             ReferencedContainer = "container:SwiftMarkdownParserExamples.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

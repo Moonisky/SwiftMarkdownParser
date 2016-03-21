@@ -86,8 +86,31 @@ typedef int swift_int2  __attribute__((__ext_vector_type__(2)));
 typedef int swift_int3  __attribute__((__ext_vector_type__(3)));
 typedef int swift_int4  __attribute__((__ext_vector_type__(4)));
 #if defined(__has_feature) && __has_feature(modules)
+@import UIKit;
+@import WebKit;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
 #pragma clang diagnostic ignored "-Wduplicate-method-arg"
+@class NSURL;
+
+@interface UIWebView (SWIFT_EXTENSION(MarkdownParseKit))
+
+/// Load Markdown HTML String
+- (void)loadMarkdownString:(NSString * __nonnull)markdown atBaseURL:(NSURL * __nullable)baseURL withStyleSheet:(NSString * __nullable)sheet;
+
+/// Load Markdown HTML String
+- (void)loadMarkdownString:(NSString * __nonnull)markdown atBaseURL:(NSURL * __nullable)baseURL withStylesheetFile:(NSString * __nonnull)filename andSurroundedByHTML:(NSString * __nullable)surround;
+@end
+
+
+@interface WKWebView (SWIFT_EXTENSION(MarkdownParseKit))
+
+/// Load Markdown HTML String
+- (void)loadMarkdownString:(NSString * __nonnull)markdown atBaseURL:(NSURL * __nullable)baseURL withStyleSheet:(NSString * __nullable)sheet;
+
+/// Load Markdown HTML String
+- (void)loadMarkdownString:(NSString * __nonnull)markdown atBaseURL:(NSURL * __nullable)baseURL withStylesheetFile:(NSString * __nonnull)filename andSurroundedByHTML:(NSString * __nullable)surround;
+@end
+
 #pragma clang diagnostic pop
