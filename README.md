@@ -1,6 +1,6 @@
 # MarkdownParseKit
 
-[![CI Status](http://img.shields.io/travis/semper_idem/MarkdownParseKit.svg?style=flat)](https://travis-ci.org/semper_idem/MarkdownParseKit)
+[![Build Status](https://travis-ci.org/SemperIdem/SwiftMarkdownParser.svg?branch=master)](https://travis-ci.org/SemperIdem/SwiftMarkdownParser)
 [![Version](https://img.shields.io/cocoapods/v/MarkdownParseKit.svg?style=flat)](http://cocoapods.org/pods/MarkdownParseKit)
 [![License](https://img.shields.io/cocoapods/l/MarkdownParseKit.svg?style=flat)](http://cocoapods.org/pods/MarkdownParseKit)
 [![Platform](https://img.shields.io/cocoapods/p/MarkdownParseKit.svg?style=flat)](http://cocoapods.org/pods/MarkdownParseKit)
@@ -85,8 +85,8 @@ In short, that's all you need to get started.
 * iOS 8.0+
 
 > If you want to support iOS 7, you should use my source code for using this functionality. Because it does not allow using 3rd party dynamic frameworks, and it's impossible to build static libraries that contain Swift code.
-> ​
-> * Swift 2.0
+
+* Swift 2.0
 
 * Xcode 7.0+
 
