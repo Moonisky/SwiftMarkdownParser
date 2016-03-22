@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   s.homepage         = "https://github.com/SemperIdem/SwiftMarkdownParser"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
-  s.author           = { "星夜暮晨" => "semper_idem@126.com" }
+  s.author           = { "星夜暮晨" => "guest@swift.gg" }
   s.source           = { :git => "https://github.com/SemperIdem/SwiftMarkdownParser.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 

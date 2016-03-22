@@ -4,6 +4,7 @@
 [![Version](https://img.shields.io/cocoapods/v/MarkdownParseKit.svg?style=flat)](http://cocoapods.org/pods/MarkdownParseKit)
 [![License](https://img.shields.io/cocoapods/l/MarkdownParseKit.svg?style=flat)](http://cocoapods.org/pods/MarkdownParseKit)
 [![Platform](https://img.shields.io/cocoapods/p/MarkdownParseKit.svg?style=flat)](http://cocoapods.org/pods/MarkdownParseKit)
+![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)
 
 A Swift Wrapper of the [Sundown](https://github.com/vmg/sundown) Markdown Library.
 
@@ -69,7 +70,7 @@ import MarkdownParseKit
 class ViewController: UIViewController {
   func viewDidLoad() {
   	super.viewDidLoad()
-    
+
     webview.loadMarkdownString("# How to Write Markdown\n* Start with some bullet points\n* Crucially, you want to **emphasis** the _important_ points")
   }
 }
@@ -115,6 +116,28 @@ MarkdownParseKit 可以通过 [CocoaPods](http://cocoapods.org) 来安装。
 * 在您的 Podfile 文件中，在您的 Target 中添加 `use_frameworks!` 以及 `pod 'MarkdownParseKit'` 这两条语句；
 * 在命令行当中，运行 `pod install`；
 * 使用由 CocoaPods 生成的 `.xcworkspace` 文件来进行您的项目工作！
+
+###Carthage
+
+MarkdownParseKit is also available through [Carthage](https://github.com/Carthage/Carthage).
+
+To install it, you should:
+
+* [Install Carthage 0.10.2 or later](https://github.com/Carthage/Carthage/releases).
+* Add `github "SemperIdem/SwiftMarkdownParser"` to your Cartfile.
+* Run `carthage update`.
+* Drag `MarkdownParseKit.framework` from the appropriate platform directory in `Carthage/Build` to the `Embedded Binaries` section of your Xcode project's "General" settings.
+
+---
+
+MarkdownParseKit 还可以通过 [Carthage](https://github.com/Carthage/Carthage) 安装。
+
+要安装它的话，您应当：
+
+* [安装 Carthage 0.10.2 及其以后版本](https://github.com/Carthage/Carthage/releases)；
+* 向您的 Cartfile 中添加 `github "SemperIdem/SwiftMarkdownParser"`；
+* 运行 `carthage update`；
+* 从 `Carthage/Build` 中相应的平台文件夹内的 `MarkdownParseKit.framework` 文件，拖曳到您 Xcode 项目中 "General" 设置的 `Embedded Binaries` 栏目当中。
 
 ###Embedded Framework
 
