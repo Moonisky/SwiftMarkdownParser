@@ -92,7 +92,7 @@ In short, that's all you need to get started.
 
 ###CocoaPods
 
-Because the GFW, MarkdownParseKit is **Not** available through [CocoaPods](http://cocoapods.org) yet. 
+Because of the GFW, MarkdownParseKit is **Not** available through [CocoaPods](http://cocoapods.org) yet, I'm still struggling for supporting.
 
 ~~To install it, you should:~~ 
 
